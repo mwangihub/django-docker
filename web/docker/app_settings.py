@@ -1,0 +1,13 @@
+SITE_ID = 1
+
+APP_INSTALLED_APPS = []
+
+# E.g accounts.User
+# AUTH_USER_MODEL = ""
+
+ACCOUNT_AUTO_SIGNUP = False
+LOGIN_ON_PASSWORD_RESET = True
+
+# e.g accounts:auth_url
+LOGIN_URL = "/"
+LOGIN_REDIRECT_URL = LOGIN_URL

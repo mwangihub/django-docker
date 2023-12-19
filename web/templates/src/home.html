@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<div class="container p-4">
+	<h1>Hello! This django docker sample project. </h1>
+
+	<div class="jumbotron text-danger fw-bold bg-dark p-3 bg-opacity-25" >
+		```<br>
+		{{request_sample }}
+		<br>```
+	</div>
+</div>
+
+{% endblock content %}
